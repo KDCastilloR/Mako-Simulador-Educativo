@@ -1,0 +1,124 @@
+# MAKO – Educational Robotic Surgery Simulator
+
+**Biomedical Engineering Academic Project**
+
+## Project Description
+
+Development of an educational simulator based on the MAKO robotic surgical system, integrating robotics, biomechatronics, three-dimensional modeling, programming, automation, medical image processing, and artificial intelligence technologies.
+
+The project aims to simulate an orthopedic surgical procedure within an interactive virtual environment, combining robotic arm control with visualization tools, medical image storage, and automated report generation.
+
+## General Objective
+
+To develop an educational robotic simulation environment that enables the study of robot-assisted surgical systems and the integration of different technologies applied to biomedical engineering.
+
+## Technologies and Tools
+
+| Area | Technologies and Tools |
+|---|---|
+| Robotic Simulation | CoppeliaSim |
+| 3D Modeling | Blender |
+| Programming | Python and Lua |
+| Remote Control | Flask and web-based interface |
+| Medical Image Processing | PNG and DICOM |
+| Medical Image Storage | Orthanc PACS |
+| Artificial Intelligence | YOLO |
+| Documentation | JSON, ReportLab, and PDF |
+| Version Control | GitHub and Git LFS |
+
+## Project Development Stages
+
+The project was developed through ten main stages:
+
+1. **Research and Project Planning:** Investigation of the MAKO surgical system, its applications, technical requirements, and project objectives.
+2. **Three-Dimensional Modeling:** Development and organization of the robotic arm's mechanical components and surgical tool.
+3. **Assembly and Biomechatronic Configuration:** Configuration of mechanical joints, degrees of freedom, movement axes, and robotic structure.
+4. **Surgical Environment and Anatomical Model Development:** Creation of a virtual operating room with medical equipment, a simulated patient, and a knee anatomical model.
+5. **Camera Configuration and Visualization Systems:** Implementation of virtual cameras and monitoring systems to observe the simulated surgical procedure.
+6. **Control Panel Development and Motion Simulation:** Programming of graphical interfaces and automated robotic movement sequences.
+7. **Mobile Control and Python-Lua Communication:** Development of a web-based mobile interface for remote robotic arm control.
+8. **Image Capture, Processing, and DICOM Conversion:** Automated acquisition of simulation images and conversion into DICOM format.
+9. **PACS Integration, Medical Records, and Artificial Intelligence:** Integration of medical image storage, fictional patient records, and experimental AI-based image analysis.
+10. **Final Integration, Testing, and Technical Documentation:** Functional testing, system integration, project documentation, and preparation for demonstration.
+
+## Main Features
+
+- Three-dimensional simulation of a surgical robotic arm.
+- Configuration and control of robotic joints.
+- Automated robotic movement sequences.
+- Interactive graphical control panel.
+- Remote control through mobile devices.
+- Virtual surgical environment and anatomical models.
+- Multiple virtual cameras for surgical visualization.
+- Automated image capture and processing.
+- Conversion of PNG images into DICOM files.
+- Integration with Orthanc PACS for medical image storage.
+- Generation of fictional electronic medical records.
+- Experimental artificial intelligence analysis using YOLO.
+- Automated generation of PDF reports.
+- Integration of robotic simulation with biomedical information technologies.
+
+## System Architecture
+
+The simulator integrates several technological modules into a unified workflow:
+
+**Robotic Control → CoppeliaSim Simulation → Image Capture → Python Processing → DICOM Conversion → Orthanc PACS Storage → Experimental AI Analysis → Automated Report Generation**
+
+The robotic simulation is managed through CoppeliaSim, while Python and Lua provide communication and automation between the different modules.
+
+The mobile control interface uses Flask to establish communication between the user's device and the simulation environment.
+
+Medical images generated during the simulation are processed and converted into DICOM format for storage in Orthanc PACS.
+
+Additionally, the system incorporates experimental artificial intelligence tools and automated PDF report generation.
+
+## Technical Documentation
+
+Detailed project documentation is available in:
+
+`docs/documento_tecnico.md`
+
+This document provides information about the system architecture, technological components, configuration, and instructions for reproducing the simulation environment.
+
+## Project Evidence
+
+This section includes visual documentation of the developed system, such as:
+
+- Three-dimensional MAKO robotic arm model.
+- Robotic assembly and joint configuration in CoppeliaSim.
+- Virtual surgical environment.
+- Robotic control panel.
+- Mobile control interface.
+- Virtual camera visualization.
+- DICOM image processing.
+- Orthanc PACS integration.
+- Artificial intelligence analysis results.
+- Automatically generated medical reports.
+
+## Educational Applications
+
+The simulator provides an educational platform for studying and demonstrating technologies related to biomedical engineering, including:
+
+- Surgical robotics and biomechatronic systems.
+- Robotic kinematics and motion control.
+- Three-dimensional modeling and virtual simulation.
+- Software development and automation.
+- Remote control and communication systems.
+- Medical image acquisition and processing.
+- DICOM standards and PACS technologies.
+- Artificial intelligence applications in biomedical systems.
+- Integration of multidisciplinary engineering technologies.
+
+## Project Results
+
+The project resulted in the development of a **functional educational robotic surgery simulation prototype** that integrates mechanical simulation, remote control, virtual visualization, medical image processing, PACS storage, and experimental artificial intelligence.
+
+The system demonstrates how different biomedical engineering technologies can be integrated into a single interactive platform for educational, research, and technological demonstration purposes.
+
+## Disclaimer
+
+This project was developed exclusively for **academic, educational, and experimental research purposes**.
+
+It is not an official MAKO surgical system, is not clinically certified, and is not intended for real surgical procedures, medical diagnosis, or clinical decision-making.
+
+MAKO is a trademark associated with Stryker. This educational project is not affiliated with or endorsed by Stryker.
