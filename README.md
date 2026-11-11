@@ -1,10 +1,9 @@
 # MAKO – Simulador Educativo de Cirugía Robótica
 
 ## Descripción general
-
-Proyecto de Ingeniería Biomédica enfocado en el **diseño, desarrollo e integración de un simulador educativo de cirugía robótica basado en el sistema MAKO**, orientado al estudio de los sistemas biomecatrónicos y su aplicación en procedimientos quirúrgicos ortopédicos.
 <img width="3200" height="1898" alt="image" src="https://github.com/user-attachments/assets/700fc612-7ff3-4355-a8f5-78a8b0e9c67c" />
 
+Proyecto de Ingeniería Biomédica enfocado en el **diseño, desarrollo e integración de un simulador educativo de cirugía robótica basado en el sistema MAKO**, orientado al estudio de los sistemas biomecatrónicos y su aplicación en procedimientos quirúrgicos ortopédicos.
 
 El proyecto combina diferentes áreas de la ingeniería, incluyendo robótica, biomecánica, modelado tridimensional, programación, automatización, sistemas de control, procesamiento de imágenes médicas e inteligencia artificial.
 
