@@ -1,0 +1,21 @@
+{
+    "paciente_id": "FICT-MAKO-001",
+    "nombre": "PACIENTE DEMO 001",
+    "tipo": "FICTICIO - SIMULACION",
+    "edad": 45,
+    "sexo": "No especificado",
+    "region": "Rodilla derecha",
+    "lateralidad": "Derecha",
+    "procedimiento": "Simulacion quirurgica MAKO",
+    "descripcion": "Caso principal correspondiente al modelo de rodilla derecha desarrollado en CoppeliaSim.",
+    "sistema": "CoppeliaSim MAKO",
+    "modalidad": "OT",
+    "imagenes": [
+        "Camara Doctor",
+        "Camara MAKO"
+    ],
+    "orthanc_study_id": "be4ed1b9-9bb802f6-7d7f9ca3-edbd0fbf-c130c7b9",
+    "dicom_study_uid": "",
+    "orthanc_patient_internal_id": "",
+    "fecha_registro": "2026-11-09 19:08:14"
+}

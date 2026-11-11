@@ -1,0 +1,18 @@
+{
+    "paciente_id": "FICT-MAKO-003",
+    "nombre": "PACIENTE DEMO 003",
+    "tipo": "FICTICIO - SIMULACION",
+    "edad": 38,
+    "sexo": "No especificado",
+    "region": "Rodilla derecha",
+    "lateralidad": "Derecha",
+    "procedimiento": "Seguimiento de simulacion",
+    "descripcion": "Expediente de demostracion para seguimiento del simulador.",
+    "sistema": "CoppeliaSim MAKO",
+    "modalidad": "OT",
+    "imagenes": [],
+    "orthanc_study_id": "",
+    "dicom_study_uid": "",
+    "orthanc_patient_internal_id": "",
+    "fecha_registro": "2026-11-09 19:08:14"
+}

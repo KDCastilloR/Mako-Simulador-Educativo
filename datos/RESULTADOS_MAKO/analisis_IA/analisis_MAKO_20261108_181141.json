@@ -1,0 +1,172 @@
+{
+    "sesion": "20261108_181141",
+    "fecha": "2026-11-09 11:45:27",
+    "modelo": "C:\\MAKO_PACS\\IA\\runs\\detect\\segundo_entrenamiento\\weights\\best.pt",
+    "confianza_minima": 0.25,
+    "resultados": [
+        {
+            "camara": "doctor",
+            "imagen_original": "C:\\MAKO_PACS\\capturas_png\\doctor_20261108_181141.png",
+            "imagen_analizada": "C:\\MAKO_PACS\\datos\\RESULTADOS_MAKO\\analisis_IA\\doctor_20261108_181141_IA.png",
+            "cantidad_detecciones": 5,
+            "detecciones": [
+                {
+                    "clase": "brazo_robotico",
+                    "confianza": 85.78,
+                    "coordenadas": [
+                        47.74,
+                        0.0,
+                        102.53,
+                        30.77
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 74.79,
+                    "coordenadas": [
+                        27.92,
+                        83.28,
+                        79.03,
+                        159.47
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 65.19,
+                    "coordenadas": [
+                        74.32,
+                        37.36,
+                        111.99,
+                        84.04
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 65.06,
+                    "coordenadas": [
+                        128.07,
+                        0.84,
+                        214.79,
+                        82.17
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 54.71,
+                    "coordenadas": [
+                        76.91,
+                        36.89,
+                        118.24,
+                        77.88
+                    ]
+                }
+            ]
+        },
+        {
+            "camara": "mako",
+            "imagen_original": "C:\\MAKO_PACS\\capturas_png\\mako_20261108_181141.png",
+            "imagen_analizada": "C:\\MAKO_PACS\\datos\\RESULTADOS_MAKO\\analisis_IA\\mako_20261108_181141_IA.png",
+            "cantidad_detecciones": 5,
+            "detecciones": [
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 77.22,
+                    "coordenadas": [
+                        0.0,
+                        37.17,
+                        76.04,
+                        256.0
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 52.31,
+                    "coordenadas": [
+                        6.39,
+                        35.72,
+                        76.08,
+                        210.89
+                    ]
+                },
+                {
+                    "clase": "herramienta_quirurgica",
+                    "confianza": 28.67,
+                    "coordenadas": [
+                        81.37,
+                        89.85,
+                        100.37,
+                        113.81
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 26.81,
+                    "coordenadas": [
+                        5.52,
+                        34.85,
+                        107.14,
+                        191.81
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 25.21,
+                    "coordenadas": [
+                        102.54,
+                        128.1,
+                        255.58,
+                        229.68
+                    ]
+                }
+            ]
+        },
+        {
+            "camara": "lampara",
+            "imagen_original": "C:\\MAKO_PACS\\capturas_png\\lampara_20261108_181141.png",
+            "imagen_analizada": "C:\\MAKO_PACS\\datos\\RESULTADOS_MAKO\\analisis_IA\\lampara_20261108_181141_IA.png",
+            "cantidad_detecciones": 4,
+            "detecciones": [
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 73.88,
+                    "coordenadas": [
+                        100.66,
+                        83.43,
+                        202.57,
+                        135.51
+                    ]
+                },
+                {
+                    "clase": "brazo_robotico",
+                    "confianza": 44.69,
+                    "coordenadas": [
+                        193.56,
+                        7.83,
+                        256.0,
+                        75.13
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 32.26,
+                    "coordenadas": [
+                        102.88,
+                        83.8,
+                        178.81,
+                        130.89
+                    ]
+                },
+                {
+                    "clase": "brazo_robotico",
+                    "confianza": 25.55,
+                    "coordenadas": [
+                        238.55,
+                        12.95,
+                        256.0,
+                        89.53
+                    ]
+                }
+            ]
+        }
+    ]
+}

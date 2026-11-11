@@ -1,0 +1,142 @@
+{
+    "sesion": "20261108_144842",
+    "fecha": "2026-11-08 17:04:04",
+    "modelo": "C:\\MAKO_PACS\\IA\\runs\\detect\\segundo_entrenamiento\\weights\\best.pt",
+    "confianza_minima": 0.25,
+    "resultados": [
+        {
+            "camara": "doctor",
+            "imagen_original": "C:\\MAKO_PACS\\capturas_png\\doctor_20261108_144842.png",
+            "imagen_analizada": "C:\\MAKO_PACS\\datos\\RESULTADOS_MAKO\\analisis_IA\\doctor_20261108_144842_IA.png",
+            "cantidad_detecciones": 5,
+            "detecciones": [
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 73.84,
+                    "coordenadas": [
+                        28.19,
+                        82.83,
+                        78.89,
+                        159.56
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 65.68,
+                    "coordenadas": [
+                        127.83,
+                        0.91,
+                        214.91,
+                        82.13
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 54.74,
+                    "coordenadas": [
+                        70.15,
+                        37.36,
+                        111.51,
+                        77.53
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 33.27,
+                    "coordenadas": [
+                        74.55,
+                        36.83,
+                        118.48,
+                        85.73
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 31.2,
+                    "coordenadas": [
+                        50.82,
+                        41.31,
+                        121.73,
+                        90.42
+                    ]
+                }
+            ]
+        },
+        {
+            "camara": "mako",
+            "imagen_original": "C:\\MAKO_PACS\\capturas_png\\mako_20261108_144842.png",
+            "imagen_analizada": "C:\\MAKO_PACS\\datos\\RESULTADOS_MAKO\\analisis_IA\\mako_20261108_144842_IA.png",
+            "cantidad_detecciones": 3,
+            "detecciones": [
+                {
+                    "clase": "herramienta_quirurgica",
+                    "confianza": 85.9,
+                    "coordenadas": [
+                        79.27,
+                        74.83,
+                        256.0,
+                        132.73
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 56.8,
+                    "coordenadas": [
+                        159.57,
+                        18.75,
+                        256.0,
+                        70.03
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 45.71,
+                    "coordenadas": [
+                        209.76,
+                        140.96,
+                        255.71,
+                        252.19
+                    ]
+                }
+            ]
+        },
+        {
+            "camara": "lampara",
+            "imagen_original": "C:\\MAKO_PACS\\capturas_png\\lampara_20261108_144842.png",
+            "imagen_analizada": "C:\\MAKO_PACS\\datos\\RESULTADOS_MAKO\\analisis_IA\\lampara_20261108_144842_IA.png",
+            "cantidad_detecciones": 3,
+            "detecciones": [
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 74.03,
+                    "coordenadas": [
+                        100.61,
+                        83.44,
+                        202.43,
+                        135.51
+                    ]
+                },
+                {
+                    "clase": "rodilla",
+                    "confianza": 38.27,
+                    "coordenadas": [
+                        172.88,
+                        61.97,
+                        212.81,
+                        94.75
+                    ]
+                },
+                {
+                    "clase": "mano_cirujano",
+                    "confianza": 32.28,
+                    "coordenadas": [
+                        102.88,
+                        83.78,
+                        179.43,
+                        130.89
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+path: C:/MAKO_PACS/IA/dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: rodilla
+  1: herramienta_quirurgica
+  2: brazo_robotico
+  3: mano_cirujano

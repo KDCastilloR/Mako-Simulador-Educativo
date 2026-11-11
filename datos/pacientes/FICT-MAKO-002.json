@@ -1,0 +1,18 @@
+{
+    "paciente_id": "FICT-MAKO-002",
+    "nombre": "PACIENTE DEMO 002",
+    "tipo": "FICTICIO - SIMULACION",
+    "edad": 52,
+    "sexo": "No especificado",
+    "region": "Rodilla derecha",
+    "lateralidad": "Derecha",
+    "procedimiento": "Planificacion quirurgica simulada",
+    "descripcion": "Expediente de demostracion para pruebas del sistema.",
+    "sistema": "CoppeliaSim MAKO",
+    "modalidad": "OT",
+    "imagenes": [],
+    "orthanc_study_id": "",
+    "dicom_study_uid": "",
+    "orthanc_patient_internal_id": "",
+    "fecha_registro": "2026-11-09 19:08:14"
+}

@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Credenciales
+.env
+.env.*
+!.env.example
+*.key
+
+# Archivos del control movil
+control_movil/estado.txt
+control_movil/telefono_activo.txt
+
+# Windows
+Thumbs.db
+desktop.ini
